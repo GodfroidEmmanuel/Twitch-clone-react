@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 
 
 function Sidebar(){
+    
     const [topStreams, setTopStreams] = useState([]);
 
     useEffect(() =>{
